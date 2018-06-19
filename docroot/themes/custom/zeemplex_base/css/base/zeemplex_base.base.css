@@ -1,0 +1,14 @@
+.form-control {
+    max-width: none;
+}
+
+@media (min-width: 1120px){
+
+    #middle-part {
+        margin-left: 10%;
+        margin-right: 10%;
+
+    }
+
+}
+
