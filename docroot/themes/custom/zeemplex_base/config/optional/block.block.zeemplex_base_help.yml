@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - vartheme
+    - zeemplex_base
+id: zeemplex_base_help
+theme: zeemplex_base
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

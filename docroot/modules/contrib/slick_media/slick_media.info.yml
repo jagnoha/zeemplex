@@ -1,0 +1,16 @@
+name: Slick Media
+type: module
+description: 'Provides Slick carousel integration with Media entity.'
+# version: VERSION
+# core: 8.x
+package: Slick
+dependencies:
+  - slick:slick
+  - drupal:media (>= 8.4)
+  - video_embed_field:video_embed_media
+
+# Information added by Drupal.org packaging script on 2018-01-03
+version: '8.x-2.0-alpha1'
+core: '8.x'
+project: 'slick_media'
+datestamp: 1514970793

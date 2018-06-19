@@ -1,0 +1,4 @@
+#!/bin/bash
+#sudo /home/ubuntu/.composer/vendor/bin/drush -r . $1
+sudo /home/ubuntu/.composer/vendor/bin/drush -r /home/ubuntu/public_html/$1/docroot $2
+#sudo /home/ubuntu/.composer/vendor/bin/drush $1

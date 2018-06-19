@@ -1,0 +1,15 @@
+name: 'Varbase Style guide'
+description: 'Varbase custom styling guide components.'
+type: module
+# core: 8.x
+dependencies:
+  - styleguide
+  - vmi
+package: Varbase
+# version: 8.x-5.x-dev
+
+# Information added by Drupal.org packaging script on 2018-05-26
+version: '8.x-5.0-beta3'
+core: '8.x'
+project: 'varbase_styleguide'
+datestamp: 1527336190

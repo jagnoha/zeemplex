@@ -1,0 +1,24 @@
+name: 'Varbase Bootstrap Paragraphs Text and Image'
+description: 'Text and image paragraph type'
+type: module
+# core: 8.x
+dependencies:
+  - entity_browser
+  - entity_reference_revisions
+  - field
+  - field_group
+  - media
+  - options
+  - paragraphs
+  - text
+  - varbase_bootstrap_paragraphs
+  - varbase_landing
+  - varbase_media
+# version: 8.x-5.x-dev
+package: Varbase
+
+# Information added by Drupal.org packaging script on 2018-06-09
+version: '8.x-5.0-alpha1'
+core: '8.x'
+project: 'varbase_bootstrap_paragraphs'
+datestamp: 1528583584

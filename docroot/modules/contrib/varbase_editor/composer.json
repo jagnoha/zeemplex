@@ -1,0 +1,30 @@
+{
+  "name": "drupal/varbase_editor",
+  "description": "Editor profile and settings to be used in most websites.",
+  "type": "drupal-module",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Vardot",
+      "homepage": "https://www.drupal.org/vardot",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "http://drupal.org/project/issues/varbase_editor",
+    "source": "http://cgit.drupalcode.org/varbase_editor"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "branch-alias": {
+      "dev-8.x-5.x": "8.5.x-dev"
+    }
+  }
+}

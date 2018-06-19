@@ -1,0 +1,109 @@
+core: 8.x
+type: theme
+base theme: vartheme
+
+name: 'zeemplex_base'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Varbase'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Top Bar'
+  hero_slider: 'Media Hero Slider'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+# Bootstrap styles and scripts libraries.
+  - zeemplex_base/bootstrap-styles
+  - zeemplex_base/bootstrap-scripts
+  
+# zeemplex_base custom Vartheme styles and scripts libraries.
+  - zeemplex_base/vartheme-styles
+
+# zeemplex_base global styles and scripts libraries.
+  - zeemplex_base/global-styles
+  - zeemplex_base/global-scripts
+  
+# zeemplex_base Varbase Bootstrap Paragraphs colors theme.
+  - zeemplex_base/vbp-colors
+  
+# zeemplex_base Better Login theme.
+#  - zeemplex_base/betterlogin
+
+# OPTIONALLY: You can choose to remove Vartheme base theme stylesheets and/or
+# Javascript files.
+libraries-override:
+# Comment lines to keep using libraries from vartheme.
+  bootstrap_library/bootstrap-cdn: false
+  bootstrap_library/bootstrap: false
+  bootstrap_library/bootstrap-dev: false
+  vartheme/bootstrap-styles: false
+  vartheme/bootstrap-scripts: false
+  vartheme/global-styles: false
+  vartheme/global-scripts: false
+
+# Comment lines to use (RTL) libraries from vartheme.
+  vartheme/bootstrap-styles-rtl: false
+  vartheme/global-styles-rtl: false
+# Comment lines to use (RTL) libraries from zeemplex_base.
+  zeemplex_base/bootstrap-styles-rtl: false
+  zeemplex_base/vartheme-styles-rtl: false
+  zeemplex_base/global-styles-rtl: false
+
+# zeemplex_base Varbase Bootstrap Paragraphs colors theme.
+  varbase_bootstrap_paragraphs/vbp-colors: zeemplex_base/vbp-colors
+  vartheme/vbp-colors: zeemplex_base/vbp-colors
+#  vartheme/betterlogin: zeemplex_base/betterlogin
+  
+# Uncomment lines to replace, exclude css and js files from vartheme.
+# You will need to copy less/css files from Vartheme to use theme for the
+# overriden library.
+# ------------------------------------------------------------------------------
+#  vartheme/bs-callouts: zeemplex_base/bs-callouts
+#  vartheme/card: zeemplex_base/card
+#  vartheme/outside-in: zeemplex_base/outside-in
+#  vartheme/edge2edge: zeemplex_base/edge2edge
+#  vartheme/equal-height: zeemplex_base/equal-height
+#  vartheme/navbar-admin: zeemplex_base/navbar-admin
+# ------------------------------------------------------------------------------
+#  vartheme/ajax: zeemplex_base/ajax
+#  vartheme/alert: zeemplex_base/alert
+#  vartheme/field: zeemplex_base/field
+#  vartheme/file: zeemplex_base/file
+#  vartheme/filter: zeemplex_base/filter
+#  vartheme/form: zeemplex_base/form
+#  vartheme/icon: zeemplex_base/icon
+#  vartheme/navbar: zeemplex_base/navbar
+#  vartheme/node: zeemplex_base/node
+#  vartheme/panel: zeemplex_base/panel
+#  vartheme/progress-bar: zeemplex_base/progress-bar
+#  vartheme/table-drag: zeemplex_base/table-drag
+#  vartheme/tabs: zeemplex_base/tabs
+#  vartheme/toolbar: zeemplex_base/toolbar
+#  vartheme/autocomplete: zeemplex_base/autocomplete
+
+#  Uncomment the following if you want to keep bootstrap/framework
+#    and you want to extend it.
+#libraries-extend:
+#  bootstrap/framework:
+#    - vartheme/framework
+#    - zeemplex_base/framework
+
+ckeditor_stylesheets:
+  - css/base/bootstrap.base.css
+  - css/base/vartheme.base.css
+  - css/base/zeemplex_base.base.css
+  - css/theme/content.theme.css
+  - css/component/alert.component.css
+  - css/component/icon.component.css
+  - css/component/node.component.css
+  - css/component/bs-callouts.component.css
+  - css/layout/edge2edge.layout.css
